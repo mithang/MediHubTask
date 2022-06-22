@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180C57B420E73FB1008E4E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C57B320E73FB1008E4E75 /* AppDelegate.swift */; };
+		180C57B920E73FB1008E4E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180C57B720E73FB1008E4E75 /* Main.storyboard */; };
+		180C57BC20E73FB1008E4E75 /* MediHubTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 180C57BA20E73FB1008E4E75 /* MediHubTask.xcdatamodeld */; };
+		180C57BE20E73FB2008E4E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180C57BD20E73FB2008E4E75 /* Assets.xcassets */; };
+		180C57C120E73FB2008E4E75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180C57BF20E73FB2008E4E75 /* LaunchScreen.storyboard */; };
+		180C57C920E74029008E4E75 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C57C820E74029008E4E75 /* DetailVC.swift */; };
+		180C57CB20E7419A008E4E75 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C57CA20E7419A008E4E75 /* Task.swift */; };
+		180C57CD20E741A8008E4E75 /* TaskType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C57CC20E741A8008E4E75 /* TaskType.swift */; };
+		180C57CF20E742C9008E4E75 /* TaskListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C57CE20E742C9008E4E75 /* TaskListVC.swift */; };
+		18A4000020E9C85400E68A1F /* ListTaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A4FFFF20E9C85400E68A1F /* ListTaskCell.swift */; };
+		18A4000220E9CFC800E68A1F /* CreateTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A4000120E9CFC800E68A1F /* CreateTaskVC.swift */; };
+		18A4000520EA059C00E68A1F /* TaskCreateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A4000420EA059C00E68A1F /* TaskCreateDelegate.swift */; };
+		18A4000720EA0C3900E68A1F /* ReadMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A4000620EA0C3900E68A1F /* ReadMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180C57B020E73FB1008E4E75 /* MediHubTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediHubTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180C57B320E73FB1008E4E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		180C57B820E73FB1008E4E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180C57BB20E73FB1008E4E75 /* MediHubTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MediHubTask.xcdatamodel; sourceTree = "<group>"; };
+		180C57BD20E73FB2008E4E75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180C57C020E73FB2008E4E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		180C57C220E73FB2008E4E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180C57C820E74029008E4E75 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		180C57CA20E7419A008E4E75 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		180C57CC20E741A8008E4E75 /* TaskType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskType.swift; sourceTree = "<group>"; };
+		180C57CE20E742C9008E4E75 /* TaskListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListVC.swift; sourceTree = "<group>"; };
+		18A4000120E9CFC800E68A1F /* CreateTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskVC.swift; sourceTree = "<group>"; };
+		18A4000420EA059C00E68A1F /* TaskCreateDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCreateDelegate.swift; sourceTree = "<group>"; };
+		18A4000620EA0C3900E68A1F /* ReadMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadMe.swift; sourceTree = "<group>"; };
+		18A4FFFF20E9C85400E68A1F /* ListTaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTaskCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180C57AD20E73FB1008E4E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180C57A720E73FB1008E4E75 = {
+			isa = PBXGroup;
+			children = (
+				180C57B220E73FB1008E4E75 /* MediHubTask */,
+				180C57B120E73FB1008E4E75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180C57B120E73FB1008E4E75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180C57B020E73FB1008E4E75 /* MediHubTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180C57B220E73FB1008E4E75 /* MediHubTask */ = {
+			isa = PBXGroup;
+			children = (
+				180C57D720E74B39008E4E75 /* Data */,
+				180C57D320E746FD008E4E75 /* Utils */,
+				180C57D520E74813008E4E75 /* Assets */,
+				180C57D020E746D0008E4E75 /* Models */,
+				180C57D220E746EB008E4E75 /* Views */,
+				180C57D120E746E4008E4E75 /* Controllers */,
+				18A4000620EA0C3900E68A1F /* ReadMe.swift */,
+				180C57B320E73FB1008E4E75 /* AppDelegate.swift */,
+				180C57C220E73FB2008E4E75 /* Info.plist */,
+			);
+			path = MediHubTask;
+			sourceTree = "<group>";
+		};
+		180C57D020E746D0008E4E75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				180C57CA20E7419A008E4E75 /* Task.swift */,
+				180C57CC20E741A8008E4E75 /* TaskType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		180C57D120E746E4008E4E75 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18A4000320EA057A00E68A1F /* Protocols */,
+				18A4FFFE20E9C83800E68A1F /* Cells */,
+				180C57C820E74029008E4E75 /* DetailVC.swift */,
+				180C57CE20E742C9008E4E75 /* TaskListVC.swift */,
+				18A4000120E9CFC800E68A1F /* CreateTaskVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		180C57D220E746EB008E4E75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				180C57B720E73FB1008E4E75 /* Main.storyboard */,
+				180C57BF20E73FB2008E4E75 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		180C57D320E746FD008E4E75 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		180C57D520E74813008E4E75 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				180C57BD20E73FB2008E4E75 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		180C57D720E74B39008E4E75 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				180C57BA20E73FB1008E4E75 /* MediHubTask.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		18A4000320EA057A00E68A1F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				18A4000420EA059C00E68A1F /* TaskCreateDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		18A4FFFE20E9C83800E68A1F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				18A4FFFF20E9C85400E68A1F /* ListTaskCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180C57AF20E73FB1008E4E75 /* MediHubTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180C57C520E73FB2008E4E75 /* Build configuration list for PBXNativeTarget "MediHubTask" */;
+			buildPhases = (
+				180C57AC20E73FB1008E4E75 /* Sources */,
+				180C57AD20E73FB1008E4E75 /* Frameworks */,
+				180C57AE20E73FB1008E4E75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediHubTask;
+			productName = MediHubTask;
+			productReference = 180C57B020E73FB1008E4E75 /* MediHubTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180C57A820E73FB1008E4E75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = appledemoobj;
+				TargetAttributes = {
+					180C57AF20E73FB1008E4E75 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 180C57AB20E73FB1008E4E75 /* Build configuration list for PBXProject "MediHubTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180C57A720E73FB1008E4E75;
+			productRefGroup = 180C57B120E73FB1008E4E75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180C57AF20E73FB1008E4E75 /* MediHubTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180C57AE20E73FB1008E4E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180C57C120E73FB2008E4E75 /* LaunchScreen.storyboard in Resources */,
+				180C57BE20E73FB2008E4E75 /* Assets.xcassets in Resources */,
+				180C57B920E73FB1008E4E75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180C57AC20E73FB1008E4E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180C57C920E74029008E4E75 /* DetailVC.swift in Sources */,
+				18A4000520EA059C00E68A1F /* TaskCreateDelegate.swift in Sources */,
+				180C57CF20E742C9008E4E75 /* TaskListVC.swift in Sources */,
+				18A4000720EA0C3900E68A1F /* ReadMe.swift in Sources */,
+				180C57CB20E7419A008E4E75 /* Task.swift in Sources */,
+				180C57BC20E73FB1008E4E75 /* MediHubTask.xcdatamodeld in Sources */,
+				180C57CD20E741A8008E4E75 /* TaskType.swift in Sources */,
+				18A4000220E9CFC800E68A1F /* CreateTaskVC.swift in Sources */,
+				18A4000020E9C85400E68A1F /* ListTaskCell.swift in Sources */,
+				180C57B420E73FB1008E4E75 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		180C57B720E73FB1008E4E75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180C57B820E73FB1008E4E75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		180C57BF20E73FB2008E4E75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180C57C020E73FB2008E4E75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180C57C320E73FB2008E4E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		180C57C420E73FB2008E4E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180C57C620E73FB2008E4E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92X96QHTT2;
+				INFOPLIST_FILE = MediHubTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medihubvn.MediHubTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		180C57C720E73FB2008E4E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92X96QHTT2;
+				INFOPLIST_FILE = MediHubTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medihubvn.MediHubTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180C57AB20E73FB1008E4E75 /* Build configuration list for PBXProject "MediHubTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180C57C320E73FB2008E4E75 /* Debug */,
+				180C57C420E73FB2008E4E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180C57C520E73FB2008E4E75 /* Build configuration list for PBXNativeTarget "MediHubTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180C57C620E73FB2008E4E75 /* Debug */,
+				180C57C720E73FB2008E4E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		180C57BA20E73FB1008E4E75 /* MediHubTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				180C57BB20E73FB1008E4E75 /* MediHubTask.xcdatamodel */,
+			);
+			currentVersion = 180C57BB20E73FB1008E4E75 /* MediHubTask.xcdatamodel */;
+			path = MediHubTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 180C57A820E73FB1008E4E75 /* Project object */;
+}
