@@ -7,29 +7,29 @@
 //
 
 import UIKit
+import SwiftUI
 
 class DetailVC: UIViewController {
 
-    @IBOutlet weak var lbTitle: UILabel!
-    @IBOutlet weak var lbDate: UILabel!
-    @IBOutlet weak var lbType: UILabel!
+
     var task:Task?
     
+    @IBOutlet weak var container: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        ConfigTask()
+        loadUIView()
+//        ConfigTask()
         title = "Task Detail"
     }
-    func ConfigTask() {
-        if let task=task{
-            lbTitle.text = task.title
-            lbType.text = task.type.rawValue
-            let dateFormatter = DateFormatter()
-            dateFormatter.dateFormat="dd/MM/yyyy"
-            lbDate.text=dateFormatter.string(from:task.dueDate)
-        }
+    func loadUIView(){
+        let controller = UIHostingController(rootView: DetailScreen())
+        addChildViewController(controller)
+        controller.view.frame = container.bounds
+        view.addSubview(controller.view)
+        controller.didMove(toParent: self)
     }
+   
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
        
